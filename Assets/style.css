@@ -1,0 +1,299 @@
+:root {
+  font-size: 16px;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  border-bottom: 2px solid;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+h2 {
+  margin-bottom: 0%;
+}
+
+p {
+  margin-bottom: 0%;
+  padding-left: 10%;
+}
+
+.aboutme {
+  display: flex;
+  font-size: 1.5rem;
+
+}
+
+.first-application img {
+  position: relative;
+  z-index: -1;
+}
+.first-application h2 {
+  position: absolute;
+  font-size: 4rem;
+}
+
+.first-application h3 {
+  position: absolute;
+  padding-left: 65%;
+  padding-top: 40%;
+  font-size: 3rem;
+  border: red 3px solid;
+
+}
+.first-application img {
+
+  position: relative;
+  width: 100%;
+}
+.sub-applications div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+  border: green 3px dashed;
+}
+
+@media screen and (min-device-width: 720px) {
+  
+  .first-application {
+    color: white;
+  }
+  
+  .sub-applications {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    border: red 3px solid;
+    justify-content: center;
+
+  }
+  
+.sub-applications div {
+  width: 49%;
+}
+  .sub-applications img {
+    width: 100%;
+    border: orange 2px solid;
+    position: relative;
+    z-index: -1;
+  }
+
+  .sub-applications h3 {
+    position: absolute;
+    padding-top: 10%;
+    color: white;
+  }
+
+
+}
+    /*
+:root {
+    --Primary: #0E060A;
+    --Secondary: #BE664B;
+    --Tertiary: #A1AE84;
+    --Quarternary: #f4be66;
+    --Quinary: #ebebeb;
+    --Senary: #E33B6D;
+    --Primary-Font: 'lato', sans-serif;
+    --Link-Font: 'fantasy';
+    font-size: 16px;
+}
+
+body {
+  background-color: var(--Quinary);
+  Color: var(--Primary);
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  justify-content: space-between;
+  border-bottom: var(--Quinary) 5px solid;
+  align-items: center;
+  font-size: 2rem;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  justify-content: center;
+  border-bottom: #E33B6D 5px solid;
+  align-items: center;
+  font-size: 10px;
+}
+nav {
+  display: flex;
+
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  height: 100%;
+
+}
+li {
+  display: flex;
+  list-style: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: var(--Senary);
+}
+
+section  {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: var(--Tertiary);
+}
+
+div {
+  width: 100%;
+}
+
+section h2 {
+  color: var(--Quarternary);
+  font-size: 4rem;
+  margin: 0%;
+  padding: 0%;
+}
+
+.aboutme {
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+
+}
+
+.aboutme div p {
+  font-size: 2rem;
+}
+.aboutme img {
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  margin: auto 0;
+
+}
+
+.links {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+ 
+}
+
+.links div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border:#0E060A 2px solid;
+  padding-bottom: 1%;
+  justify-content: space-between;
+  align-items: flex-end;
+  border: var(--Primary) 2px solid;
+  
+}
+
+.links h3 {
+  margin: 0px;
+  width: 140px;
+  height: 304px;
+  display: flex;
+  font-size: 50px;
+}
+
+.links img {
+  width: 66vw;
+  filter: grayscale(100%);
+  margin: 24px;
+  z-index: -1;
+  border: var(--Primary) 2px solid;
+
+}
+
+.links h3 span {
+  background: rgba(0,0,0, .5);
+  height:fit-content;
+  color: red;
+}
+
+.link1 {
+  display: flex;
+  position: relative;
+  filter: grayscale(100%);
+}
+
+.link1 div {
+  border: var(--Primary) 2px solid;
+
+}
+
+.link1 h3 {
+  position: absolute;
+  display: flex;
+  font-size: 50px;
+}
+
+.link1 img {
+  width: 100%;
+  padding-bottom: 1%;
+}
+
+@media screen and (min-device-width: 720px) {
+ 
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  .links div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 45%;
+    border:#0E060A 2px solid;
+    padding-bottom: 1%;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+  }
+    .links h3 {
+      margin: 0px;
+      width: max-content;
+      font-size: 50px;
+      position: relative;
+    }
+    
+    .links img {
+      width: 450px;
+      filter: grayscale(100%);
+      position: absolute;
+      z-index: -1;
+    }
+  p {
+  color: red;
+ }
+}
