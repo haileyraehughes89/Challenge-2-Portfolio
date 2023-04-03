@@ -1,4 +1,4 @@
-
+# Challenge 2: Sample Application Portfolio
 
 ## User Story
 
@@ -29,8 +29,8 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-# Semantic HTML Elements:
-I replaced all div tags in order to make the HTML document easier to navigate. I utilized the header, hgroup, h1, h2, h3 and section elements. I have left comments in the HTML document to note where changes were made, what those changes are and why I chose to make them.
+## Portfolio
+
 
 HTML element structure:
 I viewed this project as 4 distinct parts; the header, the footer, the main content and the aside. I organized the elements with the heading first and footer last. In the heading I organized I used the h1 element as it was the first heading to appear. Within this I included the nav element in which I put the ul. Before the pirmary content I added a section dedicated to the largest image. I did this to emphaize that the image stood alone apart from the header and the content, and consequently easier to find in the HTML file. Within the section whose class is content I used the hgroup element to provide clarity that there were three sperate sections within. I used the same organization structure for each hgroup; img, h2 and p. I used h2 for each hgroup because all needed to be identical in styling. I chose to put the main content above the aside. The main content contains the most information regarding the company, and the aside contains information that is tangential. I once again used hgroups to organize the three sections in the aside. Each hgroup in the asside used the same organization structure; h3, img and p, for the same purposed as the hgroup with the main content. The footer came last. It is of notes that i used the h2 element in order to ensure continuity in formating with the main content.
