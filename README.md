@@ -1,16 +1,3 @@
-# 02 Advanced CSS: Portfolio
-
-## Your Task
-
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
-
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
-
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
-
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
-
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format. 
 
 
 ## User Story
@@ -42,65 +29,11 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+# Semantic HTML Elements:
+I replaced all div tags in order to make the HTML document easier to navigate. I utilized the header, hgroup, h1, h2, h3 and section elements. I have left comments in the HTML document to note where changes were made, what those changes are and why I chose to make them.
 
-## Mock-Up
+HTML element structure:
+I viewed this project as 4 distinct parts; the header, the footer, the main content and the aside. I organized the elements with the heading first and footer last. In the heading I organized I used the h1 element as it was the first heading to appear. Within this I included the nav element in which I put the ul. Before the pirmary content I added a section dedicated to the largest image. I did this to emphaize that the image stood alone apart from the header and the content, and consequently easier to find in the HTML file. Within the section whose class is content I used the hgroup element to provide clarity that there were three sperate sections within. I used the same organization structure for each hgroup; img, h2 and p. I used h2 for each hgroup because all needed to be identical in styling. I chose to put the main content above the aside. The main content contains the most information regarding the company, and the aside contains information that is tangential. I once again used hgroups to organize the three sections in the aside. Each hgroup in the asside used the same organization structure; h3, img and p, for the same purposed as the hgroup with the main content. The footer came last. It is of notes that i used the h2 element in order to ensure continuity in formating with the main content.
 
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
-
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+alt attributes:
+Alt attributes were added to increase web accessiblity. Descriptions were chosen using the context of the content it related to, as well as a visual description.
