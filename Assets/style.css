@@ -45,6 +45,7 @@ p {
 .first-application img {
   position: relative;
   z-index: -1;
+  border: black 2px solid;
 }
 .first-application h2 {
   position: absolute;
@@ -56,7 +57,7 @@ p {
   padding-left: 65%;
   padding-top: 40%;
   font-size: 3rem;
-  border: red 3px solid;
+
 
 }
 .first-application img {
@@ -81,7 +82,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     font-size: 3rem;
-    border: red 3px solid;
+    
     justify-content: center;
 
   }
