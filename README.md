@@ -29,11 +29,20 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-## Portfolio
+HTML Structure:
+For this assignment, I wanted to make sure that the "foundation" of my page was created before I put in personal information. I created my HTML file firt. I utilized Lorem Ipsum to fill in title and text. I focused on organization of semantic elements. Following this, I chose classifications for sections that would be styled differently. 
+
+CSS Structure:
+Once my HTML document was organized, I begain working on polishing in my CSS file. I turned my attention to color coordination and font combinations. I realized quickly this was unwise, and restarted. I prioritized styling the layout of my webpage. I worked from the top down, structuring the header first, and working sequentially through to the footer. Upon reflection, I would likely structure the footer and header at the same time due to their similarities. I am a marvel fan, so I used photos of female marvel characters to provide me a visual of the layout. This would prove problematic, and I will address this further down the document. I chose to structure my document using the dimension of a cell phone.
+
+Responsive Layout:
+Before styling, I then worked on my responsive layout. I had several issues with this. Because I had put pictures in that were not cohesive in size, the portfolio did not look neat. My code was also too messy to find where to make changes. Therefore, I restarted my code for a second time. I sized images so that they shared the same dimensions. Once I had those in place, I put borders around different sections. This helped me to visualize what elements and classes were being edited. I decided to copy the attributes that would need to be resized in response to screen sizes and copied those into a media query. I then edited those to fit a screen larger that 720 px to stack the application links differently. 
+
+Polishing:
+I did minimum polishing. I used relative and absolute positioning to make headers lie ontop of images. I also made it so that the font color changed images that were on screens that were more than 720 px wide. This was done because the text was too dark ontop of the images. 
+
+Application Links:
+I originally linked my website to the Blackwidow Image. However, because I had used a z-index of -1, the link was lost. To correct this, I add the link to the entire section classified as "first-applicaiton".
 
 
-HTML element structure:
-I viewed this project as 4 distinct parts; the header, the footer, the main content and the aside. I organized the elements with the heading first and footer last. In the heading I organized I used the h1 element as it was the first heading to appear. Within this I included the nav element in which I put the ul. Before the pirmary content I added a section dedicated to the largest image. I did this to emphaize that the image stood alone apart from the header and the content, and consequently easier to find in the HTML file. Within the section whose class is content I used the hgroup element to provide clarity that there were three sperate sections within. I used the same organization structure for each hgroup; img, h2 and p. I used h2 for each hgroup because all needed to be identical in styling. I chose to put the main content above the aside. The main content contains the most information regarding the company, and the aside contains information that is tangential. I once again used hgroups to organize the three sections in the aside. Each hgroup in the asside used the same organization structure; h3, img and p, for the same purposed as the hgroup with the main content. The footer came last. It is of notes that i used the h2 element in order to ensure continuity in formating with the main content.
 
-alt attributes:
-Alt attributes were added to increase web accessiblity. Descriptions were chosen using the context of the content it related to, as well as a visual description.
