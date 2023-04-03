@@ -42,7 +42,10 @@ Polishing:
 I did minimum polishing. I used relative and absolute positioning to make headers lie ontop of images. I also made it so that the font color changed images that were on screens that were more than 720 px wide. This was done because the text was too dark ontop of the images. 
 
 Application Links:
-I originally linked my website to the Blackwidow Image. However, because I had used a z-index of -1, the link was lost. To correct this, I add the link to the entire section classified as "first-applicaiton".
+I originally linked my website to the Blackwidow Image. However, because I had used a z-index of -1, the link was lost. To correct this, I add the link to the entire section classified as "first-applicaiton"
+
+
+![Hailey Hughes Portfolio (1)](https://user-images.githubusercontent.com/127250721/229609468-00206eb2-63f8-4c3a-a71d-8b0b2dcb3faf.gif)
 
 
 
