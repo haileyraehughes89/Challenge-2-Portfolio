@@ -1,17 +1,4 @@
-# 02 Advanced CSS: Portfolio
-
-## Your Task
-
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
-
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
-
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
-
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
-
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format. 
-
+# Challenge 2: Sample Application Portfolio
 
 ## User Story
 
@@ -42,65 +29,23 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+HTML Structure:
+For this assignment, I wanted to make sure that the "foundation" of my page was created before I put in personal information. I created my HTML file firt. I utilized Lorem Ipsum to fill in title and text. I focused on organization of semantic elements. Following this, I chose classifications for sections that would be styled differently. 
 
-## Mock-Up
+CSS Structure:
+Once my HTML document was organized, I begain working on polishing in my CSS file. I turned my attention to color coordination and font combinations. I realized quickly this was unwise, and restarted. I prioritized styling the layout of my webpage. I worked from the top down, structuring the header first, and working sequentially through to the footer. Upon reflection, I would likely structure the footer and header at the same time due to their similarities. I am a marvel fan, so I used photos of female marvel characters to provide me a visual of the layout. This would prove problematic, and I will address this further down the document. I chose to structure my document using the dimension of a cell phone.
 
-The following animation shows the web application's appearance and functionality:
+Responsive Layout:
+Before styling, I then worked on my responsive layout. I had several issues with this. Because I had put pictures in that were not cohesive in size, the portfolio did not look neat. My code was also too messy to find where to make changes. Therefore, I restarted my code for a second time. I sized images so that they shared the same dimensions. Once I had those in place, I put borders around different sections. This helped me to visualize what elements and classes were being edited. I decided to copy the attributes that would need to be resized in response to screen sizes and copied those into a media query. I then edited those to fit a screen larger that 720 px to stack the application links differently. 
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+Polishing:
+I did minimum polishing. I used relative and absolute positioning to make headers lie ontop of images. I also made it so that the font color changed images that were on screens that were more than 720 px wide. This was done because the text was too dark ontop of the images. 
+
+Application Links:
+I originally linked my website to the Blackwidow Image. However, because I had used a z-index of -1, the link was lost. To correct this, I add the link to the entire section classified as "first-applicaiton"
 
 
-## Grading Requirements
+![Hailey Hughes Portfolio (1)](https://user-images.githubusercontent.com/127250721/229609468-00206eb2-63f8-4c3a-a71d-8b0b2dcb3faf.gif)
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
 
-This Challenge is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
